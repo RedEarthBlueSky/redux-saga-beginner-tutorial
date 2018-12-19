@@ -8,7 +8,7 @@ import createSagaMiddleware from 'redux-saga'
 import Counter from './Counter'
 import reducer from './reducers'
 
-// 1. Import Saga from ./sagas module
+// 1. Import Sagas from ./sagas module
 import rootSaga from './sagas'
 
 // 2. Create middleware using factory function createSagaMiddleware
